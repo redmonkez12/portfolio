@@ -1,14 +1,7 @@
 import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
+import { type Project } from "~/data/data";
 
-type Level = "newbie" | "junior" | "intermediate" | "advanced" | "guru";
-
-type Props = {
-  title: string;
-  description: string;
-  image: string;
-  level: Level;
-};
-
+type Props = Project;
 
 export function CardWrapper({ image, description, title, level }: Props) {
   function getColor() {
