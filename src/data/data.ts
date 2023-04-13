@@ -56,4 +56,10 @@ export const projects: Project[] = [
     title: "Single price grid component",
     level: "newbie",
   },
+  {
+    image: "portfolio_9.png",
+    description: "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+    title: "Age calculator app",
+    level: "junior",
+  },
 ];
