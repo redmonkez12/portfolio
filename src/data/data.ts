@@ -62,4 +62,10 @@ export const projects: Project[] = [
     title: "Age calculator app",
     level: "junior",
   },
+  {
+    image: "portfolio_10.png",
+    description: "This challenge is great for beginners and offers a chance to practice basic client-side form validation.",
+    title: "Ping single column coming soon page",
+    level: "newbie",
+  },
 ];
