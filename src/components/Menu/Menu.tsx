@@ -28,8 +28,6 @@ export function Menu() {
   const router = useRouter();
   const [showMenu, setShowMenu] = useState(false);
 
-  console.log(router.pathname);
-
   function menuOpen() {
     setShowMenu(!showMenu);
   }

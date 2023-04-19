@@ -4,13 +4,20 @@ import { type Project } from "~/data/types";
 
 type Props = Project;
 
-export function CardWrapper({ image, description, title, level }: Props) {
+export function CardWrapper({ image, description, title, level, page, github }: Props) {
   function getColor() {
     if (level === "junior") {
       return "lime";
     }
 
     return "teal";
+  }
+
+  function goToPage(url?: string) {
+    console.log(url);
+    if (url) {
+      window.open (url, '_ blank');
+    }
   }
 
   return (
@@ -34,11 +41,11 @@ export function CardWrapper({ image, description, title, level }: Props) {
       <Text size="sm" color="dimmed" className={"mb-4"}>{description}</Text>
 
       <Group grow={true} className={"mt-auto"}>
-        <Button variant="filled" radius="md">
+        <Button variant="filled" radius="md" onClick={() => goToPage(github)}>
           View Code
         </Button>
 
-        <Button variant="filled" radius="md">
+        <Button variant="filled" radius="md" onClick={() => goToPage(page)}>
           View Page
         </Button>
       </Group>

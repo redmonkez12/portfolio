@@ -5,4 +5,6 @@ export type Project = {
   description: string;
   image: string;
   level?: Level;
+  github?: string;
+  page?: string;
 };
