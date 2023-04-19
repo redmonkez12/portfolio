@@ -28,16 +28,16 @@ export function CardWrapper({ image, description, title, level, page, github }: 
     }
 
     void (async () => {
-      const repoUrl = "https://api.github.com/repos/redmonkez12/:repo";
+      const repoUrl = "https://api.github.com/repos/redmonkez12/trading-app-trpc";
       const repo = github.split("/").at(-1) || "";
 
       const response = await fetch(
         `${repoUrl.replace(":repo", repo)}`
       );
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-      const data: { updated_at: string } = await response.json();
+      const data: { pushed_at: string } = await response.json();
 
-      const date = new Date(data.updated_at);
+      const date = new Date(data.pushed_at);
       const options = { year: "numeric", month: "long", day: "numeric", hour: "numeric", minute: "numeric" };
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
