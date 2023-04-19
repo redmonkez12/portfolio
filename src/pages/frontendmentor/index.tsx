@@ -2,7 +2,8 @@ import { Group, MultiSelect } from "@mantine/core";
 import { CardWrapper } from "~/components/Card/CardWrapper";
 import { useEffect, useState } from "react";
 
-import { type Level, type Project, projects } from "~/data/data";
+import { projects } from "~/data/data";
+import { type Level, type Project } from "~/data/types";
 
 const defaultLevels: Level[] = ["newbie", "junior", "intermediate", "advanced", "guru"];
 
