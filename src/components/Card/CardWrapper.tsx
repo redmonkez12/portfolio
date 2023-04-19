@@ -1,5 +1,6 @@
 import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
-import { type Project } from "~/data/data";
+
+import { type Project } from "~/data/types";
 
 type Props = Project;
 

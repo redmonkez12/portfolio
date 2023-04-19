@@ -1,11 +1,4 @@
-export type Level = "newbie" | "junior" | "intermediate" | "advanced" | "guru";
-
-export type Project = {
-  title: string;
-  description: string;
-  image: string;
-  level: Level;
-};
+import { type Project } from "~/data/types";
 
 export const projects: Project[] = [
   {

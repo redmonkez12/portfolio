@@ -1,14 +1,12 @@
-import { useEffect, useState } from "react";
-import { type NextPage } from "next";
 import { Group, MultiSelect } from "@mantine/core";
-
 import { CardWrapper } from "~/components/Card/CardWrapper";
-import { Menu } from "~/components/Menu/Menu";
+import { useEffect, useState } from "react";
+
 import { type Level, type Project, projects } from "~/data/data";
 
 const defaultLevels: Level[] = ["newbie", "junior", "intermediate", "advanced", "guru"];
 
-const Home: NextPage = () => {
+export default function Frontendmentor() {
   const [levels, setLevels] = useState<Level[]>([]);
   const [data, setData] = useState<Project[]>(projects);
 
@@ -23,10 +21,9 @@ const Home: NextPage = () => {
     setLevels(levels);
   }
 
-  return (
-    <div className={"flex flex-col p-8 max-w-[72.5rem] mx-auto"}>
-      <Menu />
 
+  return (
+    <>
       <div className={"flex md:w-full w-auto mt-8"}>
         <MultiSelect
           onChange={difficultyChange}
@@ -56,8 +53,6 @@ const Home: NextPage = () => {
           ))}
         </Group>
       </div>
-    </div>
+    </>
   );
-};
-
-export default Home;
+}
