@@ -61,4 +61,12 @@ export const projects: Project[] = [
     title: "Ping single column coming soon page",
     level: "newbie",
   },
+  {
+    image: "portfolio_11.png",
+    description: "In this project, you'll use the GitHub users API to pull profile data and display it. It's a great challenge if you're looking to practice working with a 3rd-party API.",
+    title: "GitHub user search app",
+    level: "junior",
+    github: "https://github.com/redmonkez12/GitHub-user-search-app",
+    page: "https://git-hub-user-search-app-khaki.vercel.app/",
+  },
 ];
