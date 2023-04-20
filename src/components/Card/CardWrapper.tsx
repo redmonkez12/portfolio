@@ -28,8 +28,10 @@ export function CardWrapper({ image, description, title, level, page, github }: 
     }
 
     void (async () => {
-      const repoUrl = "https://api.github.com/repos/redmonkez12/trading-app-trpc";
+      const repoUrl = "https://api.github.com/repos/redmonkez12/:repo";
       const repo = github.split("/").at(-1) || "";
+
+      console.log(repo, github);
 
       const response = await fetch(
         `${repoUrl.replace(":repo", repo)}`

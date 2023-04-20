@@ -46,10 +46,7 @@ export default function Frontendmentor() {
           {data.map(project => (
             <CardWrapper
               key={project.image}
-              image={project.image}
-              description={project.description}
-              title={project.title}
-              level={project.level}
+              {...project}
             />
           ))}
         </Group>
