@@ -69,4 +69,12 @@ export const projects: Project[] = [
     github: "https://github.com/redmonkez12/GitHub-user-search-app",
     page: "https://git-hub-user-search-app-khaki.vercel.app/",
   },
+  {
+    image: "portfolio_12.png",
+    description: "This HTML & CSS only challenge is perfect if you're starting to get a bit comfortable with your layout skills. The responsive layout shifts will also be a great test!",
+    title: "Meet landing page",
+    level: "newbie",
+    github: "https://github.com/redmonkez12/meet-landing-page",
+    page: "https://meet-landing-page-eta.vercel.app/",
+  },
 ];

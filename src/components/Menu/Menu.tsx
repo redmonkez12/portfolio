@@ -11,6 +11,14 @@ type Link = {
 
 const links: Link[] = [
   {
+    url: "blog",
+    label: "Blog"
+  },
+  {
+    url: "publications",
+    label: "Publications"
+  },
+  {
     url: "frontendmentor",
     label: "Frontend mentor"
   },
