@@ -77,4 +77,12 @@ export const projects: Project[] = [
     github: "https://github.com/redmonkez12/meet-landing-page",
     page: "https://meet-landing-page-eta.vercel.app/",
   },
+  {
+    image: "portfolio_13.png",
+    description: "Practice building out a sign-up form complete with client-side validation using JavaScript.",
+    title: "Intro component with sign-up form",
+    level: "newbie",
+    github: "https://github.com/redmonkez12/intro-component-with-sign-up",
+    page: "https://https://intro-component-with-sign-up-pi.vercel.app//",
+  },
 ];
