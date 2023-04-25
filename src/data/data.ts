@@ -83,6 +83,6 @@ export const projects: Project[] = [
     title: "Intro component with sign-up form",
     level: "newbie",
     github: "https://github.com/redmonkez12/intro-component-with-sign-up",
-    page: "https://https://intro-component-with-sign-up-pi.vercel.app//",
+    page: "https://intro-component-with-sign-up-pi.vercel.app/",
   },
 ];
