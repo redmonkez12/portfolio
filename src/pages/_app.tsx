@@ -9,6 +9,7 @@ import { api } from "~/utils/api";
 
 import "~/styles/globals.css";
 import { Menu } from "~/components/Menu/Menu";
+import { Footer } from "~/components/Footer/Footer";
 
 const MyApp: AppType<{ session: Session | null }> = ({
                                                        Component,
@@ -49,6 +50,8 @@ const MyApp: AppType<{ session: Session | null }> = ({
             <Menu />
 
             <Component {...pageProps} />
+
+            <Footer/>
           </div>
         </MantineProvider>
       </SessionProvider>
