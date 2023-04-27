@@ -2,6 +2,14 @@ import { type Project } from "~/data/types";
 
 export const projects: Project[] = [
   {
+    image: "portfolio_14.png",
+    description: "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+    title: "Stats preview card component",
+    level: "newbie",
+    github: "https://github.com/redmonkez12/status-preview-component",
+    page: "https://status-preview-component.vercel.app/",
+  },
+  {
     image: "portfolio.png",
     description: "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it&apos;s worth getting to grips with it!",
     title: "Testiomonial grid section",
