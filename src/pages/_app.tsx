@@ -46,10 +46,12 @@ const MyApp: AppType<{ session: Session | null }> = ({
 
       <SessionProvider session={session}>
         <MantineProvider withGlobalStyles withNormalizeCSS theme={{ colorScheme: "dark" }}>
-          <div className={"flex flex-col p-8 max-w-[72.5rem] mx-auto"}>
+          <div className={"container flex flex-col p-8 max-w-[72.5rem] mx-auto"}>
             <Menu />
 
-            <Component {...pageProps} />
+            <div className={"flex-1"}>
+              <Component {...pageProps} />
+            </div>
 
             <Footer/>
           </div>
