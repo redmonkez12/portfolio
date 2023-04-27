@@ -27,8 +27,8 @@ const links: Link[] = [
     label: "Side projects"
   },
   {
-    url: "sda",
-    label: "SDA"
+    url: "lecturing",
+    label: "Lecturing"
   }
 ];
 
