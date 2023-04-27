@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .container {
-    @apply h-screen
+    @apply min-h-screen
 }
