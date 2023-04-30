@@ -2,6 +2,14 @@ import { type Project } from "~/data/types";
 
 export const projects: Project[] = [
   {
+    image: "portfolio_16.png",
+    description: "A perfect challenge for beginners, this project will get you working with a two column layout.",
+    title: "Huddle landing page with a single introductory section",
+    level: "newbie",
+    github: "https://github.com/redmonkez12/Huddle-landing-page",
+    page: "https://huddle-landing-page-three-theta.vercel.app/",
+  },
+  {
     image: "portfolio_15.png",
     description: "This challenge will be a perfect test of your HTML & CSS skills. If you're starting to get comfortable building smaller projects, this will be a great step up.",
     title: "Equalizer landing page",
