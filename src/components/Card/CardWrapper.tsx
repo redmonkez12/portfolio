@@ -73,11 +73,11 @@ export function CardWrapper({ image, description, title, level, page, github }: 
       <Text size="sm" color="dimmed" className={"mb-4"}>{description}</Text>
 
       <Group grow={true} className={"mt-auto"}>
-        <Button variant="filled" radius="md" onClick={() => goToPage(github)}>
+        <Button variant="outline" color={"teal"} radius="md" onClick={() => goToPage(github)}>
           View Code
         </Button>
 
-        <Button variant="filled" radius="md" onClick={() => goToPage(page)}>
+        <Button variant="filled" color={"teal"} radius="md" onClick={() => goToPage(page)}>
           View Page
         </Button>
       </Group>

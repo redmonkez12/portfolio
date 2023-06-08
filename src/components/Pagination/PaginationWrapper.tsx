@@ -7,5 +7,5 @@ type Props = {
 };
 
 export function PaginationWrapper({ activePage, total, handlePage }: Props) {
-  return <Pagination className={"mt-4"} value={activePage} onChange={handlePage} total={total} />;
+  return <Pagination color={"teal"} className={"mt-4"} value={activePage} onChange={handlePage} total={total} />;
 }
