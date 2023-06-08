@@ -51,7 +51,7 @@ export function CardWrapper({ image, description, title, level, page, github }: 
   }, [github]);
 
   return (
-    <Card shadow="sm" padding="lg" radius="md" withBorder className={"flex flex-col max-w-[338px]"}>
+    <Card shadow="sm" padding="lg" radius="md" withBorder className={"flex flex-col max-w-[348px]"}>
       <Card.Section>
         <Image
           src={`/images/${image}`}

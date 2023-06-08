@@ -50,7 +50,7 @@ export default function Frontendmentor() {
       </div>
 
       <div className={"grid py-8 place-items-center"}>
-        <Group className={"gap-10 items-stretch"}>
+        <Group className={"gap-10 items-stretch justify-center"}>
           {data.map(project => (
             <CardWrapper
               key={project.image}

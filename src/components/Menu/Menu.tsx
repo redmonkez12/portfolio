@@ -15,17 +15,9 @@ const links: Link[] = [
     label: "Frontend mentor"
   },
   {
-    url: "publications",
-    label: "Publications"
-  },
-  {
     url: "side-projects",
     label: "Side projects"
   },
-  {
-    url: "lecturing",
-    label: "Lecturing"
-  }
 ];
 
 export function Menu() {
