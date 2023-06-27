@@ -29,7 +29,7 @@ export function Menu() {
   }
 
   return (
-    <div className={"bg-zinc-950 p-4 rounded-lg"}>
+    <div className={"rounded-lg"}>
       <Image
         className={"absolute right-12 inline md:hidden"}
         src={"/images/hamburger.svg"}

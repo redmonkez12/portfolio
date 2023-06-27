@@ -77,9 +77,11 @@ export function CardWrapper({ image, description, title, level, page, github }: 
           View Code
         </Button>
 
-        <Button variant="filled" color={"teal"} radius="md" onClick={() => goToPage(page)}>
-          View Page
-        </Button>
+        {page && (
+          <Button variant="filled" color={"teal"} radius="md" onClick={() => goToPage(page)}>
+            View Page
+          </Button>
+        )}
       </Group>
     </Card>
   );
