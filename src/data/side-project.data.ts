@@ -16,7 +16,7 @@ export const SideProjectData: Project[] = [
     github: "https://github.com/redmonkez12/netflix-clone",
   },
   {
-    image: "netflix.png",
+    image: "airbnb.png",
     description: "The Airbnb Clone project is a remarkable web application built using Next.js and Tailwind CSS, demonstrating my expertise in these cutting-edge technologies. This project aims to recreate the popular hospitality platform, Airbnb, offering users an immersive booking experience while showcasing my frontend development skills.",
     title: "Airbnb clone",
     level: "Next.js",
