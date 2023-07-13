@@ -11,7 +11,7 @@ const config = {
     return [
       {
         source: '/',
-        destination: '/frontendmentor',
+        destination: '/side-projects',
         permanent: true,
       },
     ]
