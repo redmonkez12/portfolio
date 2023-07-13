@@ -16,7 +16,7 @@ export default function Frontendmentor() {
   const [data, setData] = useState<Project[]>([]);
 
   useEffect(() => {
-    const currentLevels = levels.length === 0 ? defaultLevels : levels;
+    const currentLevels: any[] = levels.length === 0 ? defaultLevels : levels;
 
     const newData = projects.filter(project => currentLevels.includes(project.level))
       .slice((page - 1) * PER_PAGE, page * PER_PAGE);
